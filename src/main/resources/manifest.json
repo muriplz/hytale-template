@@ -1,8 +1,8 @@
 {
   "Group": "dev.muriplz",
-  "Name": "ExamplePlugin",
+  "Name": "ExampleMod",
   "Version": "1.0",
-  "Description": "Your plugin description here.",
+  "Description": "Your mods description here.",
   "Authors": [
     {
       "Name": "MuriPlz",
@@ -15,5 +15,10 @@
   "Dependencies": {},
   "OptionalDependencies": {},
   "DisabledByDefault": false,
-  "Main": "dev.muriplz.Main"
+  "Main": "dev.muriplz.Main",
+  "Hyxin": {
+    "Configs": [
+      "mixin.examplemod.json"
+    ]
+  }
 }
